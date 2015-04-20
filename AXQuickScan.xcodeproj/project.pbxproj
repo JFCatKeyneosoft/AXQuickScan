@@ -26,6 +26,15 @@
 		6827F1871AE51FC6009D4BB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6827F1861AE51FC6009D4BB9 /* Images.xcassets */; };
 		6827F18A1AE51FC6009D4BB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6827F1881AE51FC6009D4BB9 /* LaunchScreen.xib */; };
 		6827F1961AE51FC6009D4BB9 /* AXQuickScanSampleIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6827F1951AE51FC6009D4BB9 /* AXQuickScanSampleIOSTests.m */; };
+		68E0499E1AE521720038B88D /* AQSCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E0499B1AE521720038B88D /* AQSCameraViewController.h */; };
+		68E0499F1AE521720038B88D /* AQSCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E0499C1AE521720038B88D /* AQSCameraViewController.m */; };
+		68E049A01AE521720038B88D /* AQSCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E0499D1AE521720038B88D /* AQSCameraViewController.xib */; };
+		68E049A51AE5219C0038B88D /* AQSPictureViewControllerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E049A21AE5219C0038B88D /* AQSPictureViewControllerViewController.h */; };
+		68E049A61AE5219C0038B88D /* AQSPictureViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E049A31AE5219C0038B88D /* AQSPictureViewControllerViewController.m */; };
+		68E049A71AE5219C0038B88D /* AQSPictureViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E049A41AE5219C0038B88D /* AQSPictureViewControllerViewController.xib */; };
+		68E049AC1AE521D90038B88D /* AQSImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E049A91AE521D90038B88D /* AQSImageViewController.h */; };
+		68E049AD1AE521D90038B88D /* AQSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E049AA1AE521D90038B88D /* AQSImageViewController.m */; };
+		68E049AE1AE521D90038B88D /* AQSImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E049AB1AE521D90038B88D /* AQSImageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +106,15 @@
 		6827F18F1AE51FC6009D4BB9 /* AXQuickScanSampleIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXQuickScanSampleIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6827F1941AE51FC6009D4BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6827F1951AE51FC6009D4BB9 /* AXQuickScanSampleIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXQuickScanSampleIOSTests.m; sourceTree = "<group>"; };
+		68E0499B1AE521720038B88D /* AQSCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQSCameraViewController.h; sourceTree = "<group>"; };
+		68E0499C1AE521720038B88D /* AQSCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSCameraViewController.m; sourceTree = "<group>"; };
+		68E0499D1AE521720038B88D /* AQSCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AQSCameraViewController.xib; sourceTree = "<group>"; };
+		68E049A21AE5219C0038B88D /* AQSPictureViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQSPictureViewControllerViewController.h; sourceTree = "<group>"; };
+		68E049A31AE5219C0038B88D /* AQSPictureViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSPictureViewControllerViewController.m; sourceTree = "<group>"; };
+		68E049A41AE5219C0038B88D /* AQSPictureViewControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AQSPictureViewControllerViewController.xib; sourceTree = "<group>"; };
+		68E049A91AE521D90038B88D /* AQSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQSImageViewController.h; sourceTree = "<group>"; };
+		68E049AA1AE521D90038B88D /* AQSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSImageViewController.m; sourceTree = "<group>"; };
+		68E049AB1AE521D90038B88D /* AQSImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AQSImageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +214,9 @@
 			children = (
 				6827F0E21AE51E9E009D4BB9 /* AXQuickScanIOS.h */,
 				6827F0E01AE51E9E009D4BB9 /* Supporting Files */,
+				68E049AF1AE521E30038B88D /* Image Controller */,
+				68E049A81AE521A50038B88D /* Picture Controller */,
+				68E049A11AE5217C0038B88D /* Camera Controller */,
 			);
 			path = AXQuickScanIOS;
 			sourceTree = "<group>";
@@ -340,6 +361,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		68E049A11AE5217C0038B88D /* Camera Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68E0499B1AE521720038B88D /* AQSCameraViewController.h */,
+				68E0499C1AE521720038B88D /* AQSCameraViewController.m */,
+				68E0499D1AE521720038B88D /* AQSCameraViewController.xib */,
+			);
+			name = "Camera Controller";
+			sourceTree = "<group>";
+		};
+		68E049A81AE521A50038B88D /* Picture Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68E049A21AE5219C0038B88D /* AQSPictureViewControllerViewController.h */,
+				68E049A31AE5219C0038B88D /* AQSPictureViewControllerViewController.m */,
+				68E049A41AE5219C0038B88D /* AQSPictureViewControllerViewController.xib */,
+			);
+			name = "Picture Controller";
+			sourceTree = "<group>";
+		};
+		68E049AF1AE521E30038B88D /* Image Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68E049A91AE521D90038B88D /* AQSImageViewController.h */,
+				68E049AA1AE521D90038B88D /* AQSImageViewController.m */,
+				68E049AB1AE521D90038B88D /* AQSImageViewController.xib */,
+			);
+			name = "Image Controller";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -347,6 +398,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E049A51AE5219C0038B88D /* AQSPictureViewControllerViewController.h in Headers */,
+				68E049AC1AE521D90038B88D /* AQSImageViewController.h in Headers */,
+				68E0499E1AE521720038B88D /* AQSCameraViewController.h in Headers */,
 				6827F0E31AE51E9E009D4BB9 /* AXQuickScanIOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -571,6 +625,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E049A71AE5219C0038B88D /* AQSPictureViewControllerViewController.xib in Resources */,
+				68E049A01AE521720038B88D /* AQSCameraViewController.xib in Resources */,
+				68E049AE1AE521D90038B88D /* AQSImageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +692,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E049A61AE5219C0038B88D /* AQSPictureViewControllerViewController.m in Sources */,
+				68E049AD1AE521D90038B88D /* AQSImageViewController.m in Sources */,
+				68E0499F1AE521720038B88D /* AQSCameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1551,6 +1611,7 @@
 				6827F0F31AE51E9E009D4BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6827F0F41AE51E9E009D4BB9 /* Build configuration list for PBXNativeTarget "AXQuickScanIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1559,6 +1620,7 @@
 				6827F0F61AE51E9E009D4BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6827F1451AE51EDA009D4BB9 /* Build configuration list for PBXNativeTarget "AXQuickScanOSX" */ = {
 			isa = XCConfigurationList;
@@ -1567,6 +1629,7 @@
 				6827F1471AE51EDA009D4BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6827F1491AE51EDA009D4BB9 /* Build configuration list for PBXNativeTarget "AXQuickScanOSXTests" */ = {
 			isa = XCConfigurationList;
@@ -1575,6 +1638,7 @@
 				6827F14B1AE51EDA009D4BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6827F16A1AE51EF7009D4BB9 /* Build configuration list for PBXNativeTarget "AXQuickScanSampleOSX" */ = {
 			isa = XCConfigurationList;
@@ -1583,6 +1647,7 @@
 				6827F16C1AE51EF7009D4BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6827F16D1AE51EF7009D4BB9 /* Build configuration list for PBXNativeTarget "AXQuickScanSampleOSXTests" */ = {
 			isa = XCConfigurationList;
@@ -1591,6 +1656,7 @@
 				6827F16F1AE51EF7009D4BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6827F1971AE51FC6009D4BB9 /* Build configuration list for PBXNativeTarget "AXQuickScanSampleIOS" */ = {
 			isa = XCConfigurationList;
@@ -1599,6 +1665,7 @@
 				6827F1991AE51FC6009D4BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6827F19A1AE51FC6009D4BB9 /* Build configuration list for PBXNativeTarget "AXQuickScanSampleIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1607,6 +1674,7 @@
 				6827F19C1AE51FC6009D4BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
